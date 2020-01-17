@@ -10,9 +10,9 @@ import About from "./pages/About";
 const App = (props) => {
     return (
         <Switch>
-            <Route path="/" exact component={Home}></Route>
-            <Route path="/about" component={About}></Route>
-            <Route path="/login" component={Login}></Route>
+            <Route path="/" exact component={Home}/>
+            <Route path="/about" component={About}/>
+            <Route path="/login" component={Login}/>
         </Switch>
     );
 };
