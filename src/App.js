@@ -3,9 +3,9 @@ import {
     Switch,
     Route,
 } from 'react-router-dom'
-import Home from "./containers/pages/Home";
-import Login from "./containers/pages/Login";
-import About from "./containers/pages/About";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import About from "./pages/About";
 
 const App = (props) => {
     return (
